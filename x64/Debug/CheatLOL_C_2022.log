@@ -1,4 +1,5 @@
-﻿  CheatLOL_C_2022.cpp
+﻿E:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(500,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  CheatLOL_C_2022.cpp
 E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4962,1): warning C4005: “DWRITE_E_FILEFORMAT”: 宏重定义
 E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58600): message : 参见“DWRITE_E_FILEFORMAT”的前一个定义
 E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4967,1): warning C4005: “DWRITE_E_UNEXPECTED”: 宏重定义
@@ -119,27 +120,27 @@ E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(608,1):
 E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58083): message : 参见“D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
 E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(609,1): warning C4005: “D3D10_ERROR_FILE_NOT_FOUND”: 宏重定义
 E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58092): message : 参见“D3D10_ERROR_FILE_NOT_FOUND”的前一个定义
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(48,75): warning C4311: “类型强制转换”: 从“BYTE *”到“DWORD”的指针截断
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(48,75): warning C4302: “类型强制转换”: 从“BYTE *”到“DWORD”截断
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(99,34): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(99,34): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(100,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(103,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(104,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(105,54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(106,54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(107,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(108,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(116,9): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“HMODULE”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(116,9): warning C4313: "printf": 格式字符串中的 "%X" 与类型为 "HMODULE" 的参数 1 冲突
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(117,36): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(117,36): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(121,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(125,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(134,52): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(139,52): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(145,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\CheatLOL_C_2022\CheatLOL_C_2022.cpp(150,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(48,75): warning C4311: “类型强制转换”: 从“BYTE *”到“DWORD”的指针截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(48,75): warning C4302: “类型强制转换”: 从“BYTE *”到“DWORD”截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(99,34): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(99,34): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(100,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(103,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(104,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(105,54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(106,54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(107,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(108,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(116,9): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“HMODULE”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(116,9): warning C4313: "printf": 格式字符串中的 "%X" 与类型为 "HMODULE" 的参数 1 冲突
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(117,36): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(117,36): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(121,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(125,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(134,52): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(139,52): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(145,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(150,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
   DX.cpp
 E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(59,1): warning C4005: “D2DERR_WRONG_STATE”: 宏重定义
 E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58181): message : 参见“D2DERR_WRONG_STATE”的前一个定义
@@ -261,9 +262,9 @@ E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(608,1):
 E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58083): message : 参见“D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
 E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(609,1): warning C4005: “D3D10_ERROR_FILE_NOT_FOUND”: 宏重定义
 E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58092): message : 参见“D3D10_ERROR_FILE_NOT_FOUND”的前一个定义
-D:\study\project\CheatLOL_C_2022\DX.cpp(54,89): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
-D:\study\project\CheatLOL_C_2022\DX.cpp(94,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\study\project\CheatLOL_C_2022\DX.cpp(96,143): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\study\project\LOLCheat\DX.cpp(54,89): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\study\project\LOLCheat\DX.cpp(94,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\study\project\LOLCheat\DX.cpp(96,143): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
   Utils.cpp
   Windows.cpp
 E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4962,1): warning C4005: “DWRITE_E_FILEFORMAT”: 宏重定义
@@ -281,4 +282,4 @@ E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58645): message : 参�
 E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4993,1): warning C4005: “DWRITE_E_ALREADYREGISTERED”: 宏重定义
 E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58654): message : 参见“DWRITE_E_ALREADYREGISTERED”的前一个定义
   正在生成代码...
-  CheatLOL_C_2022.vcxproj -> D:\study\project\CheatLOL_C_2022\x64\Debug\CheatLOL_C_2022.exe
+  CheatLOL_C_2022.vcxproj -> D:\study\project\CheatLOL_C_2022.exe
