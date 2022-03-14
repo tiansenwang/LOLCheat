@@ -97,9 +97,9 @@ HMODULE GetModelAddr(DWORD pid) {
 DWORD GetViewHightAddr(HMODULE modelAddr, HANDLE hprocess) {
 	//char text[] = "";
 	DWORD Buffer = (DWORD)modelAddr + 0x3116374;
-	ReadProcessMemory(hprocess, (LPCVOID)(Buffer), &Buffer, 4, NULL);
 	//sprintf(text, "%d", Buffer);
-	//MegText(text);
+//MegText(text);
+	ReadProcessMemory(hprocess, (LPCVOID)(Buffer), &Buffer, 4, NULL);
 	ReadProcessMemory(hprocess, (LPCVOID)(Buffer + 0x4), &Buffer, 4, NULL);
 	ReadProcessMemory(hprocess, (LPCVOID)(Buffer + 0xC), &Buffer, 4, NULL);
 	ReadProcessMemory(hprocess, (LPCVOID)(Buffer + 0xBC), &Buffer, 4, NULL);
@@ -109,45 +109,29 @@ DWORD GetViewHightAddr(HMODULE modelAddr, HANDLE hprocess) {
 	return Buffer + 0x268;
 }
 
-VOID DrawInfo(DWORD pid, HANDLE hprocess) {
-	// 遍历进程模块
-	LPCSTR model = "League of Legends.exe";
-	HMODULE modelAddr = getModelBaseAddr(pid, model);
-	printf("modelAddr : 0x%08X\n", modelAddr);
-	DWORD baseAddr = (DWORD)modelAddr + 0x0185C0FC;
-	printf("baseAddr + 一级偏移: 0x%08X\n", baseAddr);
-
-	DWORD Buffer;
-	ReadProcessMemory(hprocess, (LPCVOID)baseAddr, &Buffer, 4, NULL);
-	printf("基地址+偏移读取 ： %x\n", Buffer);
-
-	DWORD viewHightAddr;
-	ReadProcessMemory(hprocess, (LPCVOID)(Buffer + 0xC), &viewHightAddr, 4, NULL);
-	printf("二次间址：%x\n", viewHightAddr);
-
-	// 最终的高度数据地址
-	viewHightAddr += 0x26C;
-	printf("viewHightAddr : %x\n", viewHightAddr);
-
-	//读取内存数据 三次间址获取高度视距
-	float viewHight;
-	ReadProcessMemory(hprocess, (LPCVOID)viewHightAddr, &viewHight, 4, NULL);
-	printf("viewHight : %f\n", viewHight);
-
-	// 写入内存数据
-	viewHight = 4000.0;
-	WriteProcessMemory(hprocess, (LPVOID)viewHightAddr, &viewHight, 4, NULL);
-	printf("修改高度视距为4000");
-}
-
-FLOAT GetViewHight() {
-	FLOAT viewHight;
-	ReadProcessMemory(g_HandleProcess, (LPCVOID)g_ViewHightAddr, &viewHight, 4, NULL);
-	return viewHight;
-}
-
 VOID WriteViewHight(float viewHight) {
 	WriteProcessMemory(g_HandleProcess, (LPVOID)g_ViewHightAddr, &viewHight, 4, NULL);
+}
+
+DWORD GetWindowYAddr(HMODULE modelAddr, HANDLE hprocess) {
+	DWORD Buffer = (DWORD)modelAddr + 0x01879860;
+	ReadProcessMemory(hprocess, (LPCVOID)(Buffer), &Buffer, 4, NULL);
+	ReadProcessMemory(hprocess, (LPCVOID)(Buffer + 0xC), &Buffer, 4, NULL);
+	return Buffer + 0x15C;
+}
+
+DWORD GetMySelfX(HMODULE modelAddr, HANDLE hprocess) {
+	DWORD Buffer = (DWORD)modelAddr + 0x01877334;
+	ReadProcessMemory(hprocess, (LPCVOID)(Buffer), &Buffer, 4, NULL);
+	ReadProcessMemory(hprocess, (LPCVOID)(Buffer + 0x4), &Buffer, 4, NULL);
+	ReadProcessMemory(hprocess, (LPCVOID)(Buffer + 0x0), &Buffer, 4, NULL);
+	return Buffer + 0x23C;
+}
+
+FLOAT GetFolatByAddr(DWORD Addr) {
+	FLOAT value;
+	ReadProcessMemory(g_HandleProcess, (LPCVOID)Addr, &value, 4, NULL);
+	return value;
 }
 
 LRESULT  CALLBACK MyWinMain(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
@@ -164,8 +148,8 @@ void MsgRecv()
 	MSG msg;
 	while (::GetMessage(&msg, 0, 0, 0))
 	{
-		::TranslateMessage(&msg);   //将得到的消息翻译
-		::DispatchMessage(&msg);    //翻译来的消息发送
+		::TranslateMessage(&msg);
+		::DispatchMessage(&msg);
 	}
 }
 
@@ -261,13 +245,25 @@ DWORD WINAPI OnGameRun(LPVOID lp) {
 
 	// addr data
 	g_ViewHightAddr = GetViewHightAddr(g_ModelAddr, g_HandleProcess);
+	g_WindowYAddr = GetWindowYAddr(g_ModelAddr, g_HandleProcess);
+	g_WindowXAddr = g_WindowYAddr - 8;
+	g_MyselfXAddr = GetMySelfX(g_ModelAddr, g_HandleProcess);
+	g_MyselfYAddr = g_MyselfXAddr + 8;
+	g_MyselfZAddr = g_MyselfXAddr + 4;
 
 	while (1)
 	{
 		g_GameHwnd = FindWindow(g_WindowClass, g_WindowName);
 		if (GetAsyncKeyState(VK_F6) || g_GameHwnd == NULL)exit(0);
 
-		FLOAT viewHight = GetViewHight();
+
+		FLOAT viewHight = GetFolatByAddr(g_ViewHightAddr);
+		FLOAT windowX = GetFolatByAddr(g_WindowXAddr);
+		FLOAT windowY = GetFolatByAddr(g_WindowYAddr);
+		FLOAT myselfWordX = GetFolatByAddr(g_MyselfXAddr);
+		FLOAT myselfWordY = GetFolatByAddr(g_MyselfYAddr);
+		FLOAT myselfWordZ = GetFolatByAddr(g_MyselfXAddr);
+
 		if (GetAsyncKeyState(VK_F1)) { // press f1 add viewhight
 			viewHight += 500.0;
 			WriteViewHight(viewHight);
@@ -275,6 +271,8 @@ DWORD WINAPI OnGameRun(LPVOID lp) {
 		}
 		if (GetAsyncKeyState(VK_F5)) { // info erro try refresh 
 			g_ViewHightAddr = GetViewHightAddr(g_ModelAddr, g_HandleProcess);
+			g_WindowYAddr = GetWindowYAddr(g_ModelAddr, g_HandleProcess);
+			g_WindowXAddr = g_WindowYAddr - 8;
 		}
 		// draw info 
 		g_DxObject->MoveWindowAndDraw(g_GameHwnd, MyHwnd);
@@ -286,9 +284,29 @@ DWORD WINAPI OnGameRun(LPVOID lp) {
 
 		g_DxObject->DxDrawText(5, 70, L"按  下  F1  增  加  视  距  高  度", D2D1::ColorF::Red, g_WindowObject->GetMyRect());
 		g_DxObject->DxDrawText(5, 90, L"当前高度 ：", D2D1::ColorF::Red, g_WindowObject->GetMyRect());
-		char hight[] = "";
-		sprintf(hight, "%f", viewHight);
-		g_DxObject->DxDrawText(80, 90, CharToWchar(hight), D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+		char tmp[] = "";
+		sprintf(tmp, "%f", viewHight);
+		g_DxObject->DxDrawText(80, 90, CharToWchar(tmp), D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+
+		sprintf(tmp, "%f", windowX);
+		g_DxObject->DxDrawText(90, 120, L"Window X writable value : ", D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+		g_DxObject->DxDrawText(300, 120, CharToWchar(tmp), D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+
+		sprintf(tmp, "%f", windowY);
+		g_DxObject->DxDrawText(90, 140, L"Window Y writable value : ", D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+		g_DxObject->DxDrawText(300, 140, CharToWchar(tmp), D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+
+		sprintf(tmp, "%f", myselfWordX);
+		g_DxObject->DxDrawText(90, 160, L"Myself word X writable value : ", D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+		g_DxObject->DxDrawText(300, 160, CharToWchar(tmp), D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+
+		sprintf(tmp, "%f", myselfWordY);
+		g_DxObject->DxDrawText(90, 180, L"Myself word Y writable value : ", D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+		g_DxObject->DxDrawText(300, 180, CharToWchar(tmp), D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+
+		sprintf(tmp, "%f", myselfWordZ);
+		g_DxObject->DxDrawText(90, 200, L"Myself word Z writable value : ", D2D1::ColorF::Red, g_WindowObject->GetMyRect());
+		g_DxObject->DxDrawText(300, 200, CharToWchar(tmp), D2D1::ColorF::Red, g_WindowObject->GetMyRect());
 
 		g_DxObject->DxEndDraw();
 	}

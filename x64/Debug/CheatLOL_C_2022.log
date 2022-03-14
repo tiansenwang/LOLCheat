@@ -124,162 +124,22 @@ D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(48,75): warning C4311: “类型�
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(48,75): warning C4302: “类型强制转换”: 从“BYTE *”到“DWORD”截断
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(99,34): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(99,34): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(100,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(102,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(103,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(104,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(105,54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(106,54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(107,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
 D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(108,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(116,9): warning C4477: “printf”: 格式字符串“%08X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“HMODULE”
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(116,9): warning C4313: "printf": 格式字符串中的 "%X" 与类型为 "HMODULE" 的参数 1 冲突
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(117,36): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(117,36): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(121,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(125,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(134,52): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(139,52): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(145,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
-D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(150,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
-  DX.cpp
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(59,1): warning C4005: “D2DERR_WRONG_STATE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58181): message : 参见“D2DERR_WRONG_STATE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(64,1): warning C4005: “D2DERR_NOT_INITIALIZED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58190): message : 参见“D2DERR_NOT_INITIALIZED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(69,1): warning C4005: “D2DERR_UNSUPPORTED_OPERATION”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58199): message : 参见“D2DERR_UNSUPPORTED_OPERATION”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(74,1): warning C4005: “D2DERR_SCANNER_FAILED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58208): message : 参见“D2DERR_SCANNER_FAILED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(79,1): warning C4005: “D2DERR_SCREEN_ACCESS_DENIED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58217): message : 参见“D2DERR_SCREEN_ACCESS_DENIED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(84,1): warning C4005: “D2DERR_DISPLAY_STATE_INVALID”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58226): message : 参见“D2DERR_DISPLAY_STATE_INVALID”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(89,1): warning C4005: “D2DERR_ZERO_VECTOR”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58235): message : 参见“D2DERR_ZERO_VECTOR”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(97,1): warning C4005: “D2DERR_INTERNAL_ERROR”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58244): message : 参见“D2DERR_INTERNAL_ERROR”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(103,1): warning C4005: “D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58253): message : 参见“D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(108,1): warning C4005: “D2DERR_INVALID_CALL”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58262): message : 参见“D2DERR_INVALID_CALL”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(113,1): warning C4005: “D2DERR_NO_HARDWARE_DEVICE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58271): message : 参见“D2DERR_NO_HARDWARE_DEVICE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(119,1): warning C4005: “D2DERR_RECREATE_TARGET”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58280): message : 参见“D2DERR_RECREATE_TARGET”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(124,1): warning C4005: “D2DERR_TOO_MANY_SHADER_ELEMENTS”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58289): message : 参见“D2DERR_TOO_MANY_SHADER_ELEMENTS”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(129,1): warning C4005: “D2DERR_SHADER_COMPILE_FAILED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58298): message : 参见“D2DERR_SHADER_COMPILE_FAILED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(134,1): warning C4005: “D2DERR_MAX_TEXTURE_SIZE_EXCEEDED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58307): message : 参见“D2DERR_MAX_TEXTURE_SIZE_EXCEEDED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(139,1): warning C4005: “D2DERR_UNSUPPORTED_VERSION”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58316): message : 参见“D2DERR_UNSUPPORTED_VERSION”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(144,1): warning C4005: “D2DERR_BAD_NUMBER”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58325): message : 参见“D2DERR_BAD_NUMBER”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(149,1): warning C4005: “D2DERR_WRONG_FACTORY”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58334): message : 参见“D2DERR_WRONG_FACTORY”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(154,1): warning C4005: “D2DERR_LAYER_ALREADY_IN_USE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58343): message : 参见“D2DERR_LAYER_ALREADY_IN_USE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(159,1): warning C4005: “D2DERR_POP_CALL_DID_NOT_MATCH_PUSH”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58352): message : 参见“D2DERR_POP_CALL_DID_NOT_MATCH_PUSH”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(164,1): warning C4005: “D2DERR_WRONG_RESOURCE_DOMAIN”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58361): message : 参见“D2DERR_WRONG_RESOURCE_DOMAIN”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(169,1): warning C4005: “D2DERR_PUSH_POP_UNBALANCED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58370): message : 参见“D2DERR_PUSH_POP_UNBALANCED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(174,1): warning C4005: “D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58379): message : 参见“D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(179,1): warning C4005: “D2DERR_INCOMPATIBLE_BRUSH_TYPES”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58388): message : 参见“D2DERR_INCOMPATIBLE_BRUSH_TYPES”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(184,1): warning C4005: “D2DERR_WIN32_ERROR”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58397): message : 参见“D2DERR_WIN32_ERROR”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(189,1): warning C4005: “D2DERR_TARGET_NOT_GDI_COMPATIBLE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58406): message : 参见“D2DERR_TARGET_NOT_GDI_COMPATIBLE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(194,1): warning C4005: “D2DERR_TEXT_EFFECT_IS_WRONG_TYPE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58415): message : 参见“D2DERR_TEXT_EFFECT_IS_WRONG_TYPE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(201,1): warning C4005: “D2DERR_TEXT_RENDERER_NOT_RELEASED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58424): message : 参见“D2DERR_TEXT_RENDERER_NOT_RELEASED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(206,1): warning C4005: “D2DERR_EXCEEDS_MAX_BITMAP_SIZE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58433): message : 参见“D2DERR_EXCEEDS_MAX_BITMAP_SIZE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4962,1): warning C4005: “DWRITE_E_FILEFORMAT”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58600): message : 参见“DWRITE_E_FILEFORMAT”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4967,1): warning C4005: “DWRITE_E_UNEXPECTED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58609): message : 参见“DWRITE_E_UNEXPECTED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4972,1): warning C4005: “DWRITE_E_NOFONT”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58618): message : 参见“DWRITE_E_NOFONT”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4978,1): warning C4005: “DWRITE_E_FILENOTFOUND”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58627): message : 参见“DWRITE_E_FILENOTFOUND”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4983,1): warning C4005: “DWRITE_E_FILEACCESS”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58636): message : 参见“DWRITE_E_FILEACCESS”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4988,1): warning C4005: “DWRITE_E_FONTCOLLECTIONOBSOLETE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58645): message : 参见“DWRITE_E_FONTCOLLECTIONOBSOLETE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4993,1): warning C4005: “DWRITE_E_ALREADYREGISTERED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58654): message : 参见“DWRITE_E_ALREADYREGISTERED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(12,1): warning C4005: “DXGI_STATUS_OCCLUDED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57616): message : 参见“DXGI_STATUS_OCCLUDED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(13,1): warning C4005: “DXGI_STATUS_CLIPPED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57625): message : 参见“DXGI_STATUS_CLIPPED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(14,1): warning C4005: “DXGI_STATUS_NO_REDIRECTION”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57634): message : 参见“DXGI_STATUS_NO_REDIRECTION”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(15,1): warning C4005: “DXGI_STATUS_NO_DESKTOP_ACCESS”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57643): message : 参见“DXGI_STATUS_NO_DESKTOP_ACCESS”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(16,1): warning C4005: “DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57652): message : 参见“DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(17,1): warning C4005: “DXGI_STATUS_MODE_CHANGED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57661): message : 参见“DXGI_STATUS_MODE_CHANGED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(18,1): warning C4005: “DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57670): message : 参见“DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(21,1): warning C4005: “DXGI_ERROR_INVALID_CALL”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57685): message : 参见“DXGI_ERROR_INVALID_CALL”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(22,1): warning C4005: “DXGI_ERROR_NOT_FOUND”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57694): message : 参见“DXGI_ERROR_NOT_FOUND”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(23,1): warning C4005: “DXGI_ERROR_MORE_DATA”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57703): message : 参见“DXGI_ERROR_MORE_DATA”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(24,1): warning C4005: “DXGI_ERROR_UNSUPPORTED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57712): message : 参见“DXGI_ERROR_UNSUPPORTED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(25,1): warning C4005: “DXGI_ERROR_DEVICE_REMOVED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57721): message : 参见“DXGI_ERROR_DEVICE_REMOVED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(26,1): warning C4005: “DXGI_ERROR_DEVICE_HUNG”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57730): message : 参见“DXGI_ERROR_DEVICE_HUNG”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(27,1): warning C4005: “DXGI_ERROR_DEVICE_RESET”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57740): message : 参见“DXGI_ERROR_DEVICE_RESET”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(28,1): warning C4005: “DXGI_ERROR_WAS_STILL_DRAWING”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57749): message : 参见“DXGI_ERROR_WAS_STILL_DRAWING”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(29,1): warning C4005: “DXGI_ERROR_FRAME_STATISTICS_DISJOINT”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57759): message : 参见“DXGI_ERROR_FRAME_STATISTICS_DISJOINT”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(30,1): warning C4005: “DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57768): message : 参见“DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(31,1): warning C4005: “DXGI_ERROR_DRIVER_INTERNAL_ERROR”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57778): message : 参见“DXGI_ERROR_DRIVER_INTERNAL_ERROR”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(32,1): warning C4005: “DXGI_ERROR_NONEXCLUSIVE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57787): message : 参见“DXGI_ERROR_NONEXCLUSIVE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(33,1): warning C4005: “DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57796): message : 参见“DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(34,1): warning C4005: “DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57806): message : 参见“DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(35,1): warning C4005: “DXGI_ERROR_REMOTE_OUTOFMEMORY”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(57815): message : 参见“DXGI_ERROR_REMOTE_OUTOFMEMORY”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(608,1): warning C4005: “D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58083): message : 参见“D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(609,1): warning C4005: “D3D10_ERROR_FILE_NOT_FOUND”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58092): message : 参见“D3D10_ERROR_FILE_NOT_FOUND”的前一个定义
-D:\study\project\LOLCheat\DX.cpp(54,89): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
-D:\study\project\LOLCheat\DX.cpp(94,75): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\study\project\LOLCheat\DX.cpp(96,143): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
-  Utils.cpp
-  Windows.cpp
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4962,1): warning C4005: “DWRITE_E_FILEFORMAT”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58600): message : 参见“DWRITE_E_FILEFORMAT”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4967,1): warning C4005: “DWRITE_E_UNEXPECTED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58609): message : 参见“DWRITE_E_UNEXPECTED”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4972,1): warning C4005: “DWRITE_E_NOFONT”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58618): message : 参见“DWRITE_E_NOFONT”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4978,1): warning C4005: “DWRITE_E_FILENOTFOUND”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58627): message : 参见“DWRITE_E_FILENOTFOUND”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4983,1): warning C4005: “DWRITE_E_FILEACCESS”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58636): message : 参见“DWRITE_E_FILEACCESS”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4988,1): warning C4005: “DWRITE_E_FONTCOLLECTIONOBSOLETE”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58645): message : 参见“DWRITE_E_FONTCOLLECTIONOBSOLETE”的前一个定义
-E:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dwrite.h(4993,1): warning C4005: “DWRITE_E_ALREADYREGISTERED”: 宏重定义
-E:\Windows Kits\10\Include\10.0.22000.0\shared\winerror.h(58654): message : 参见“DWRITE_E_ALREADYREGISTERED”的前一个定义
-  正在生成代码...
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(113,61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(117,34): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(117,34): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(118,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(119,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(124,34): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(124,34): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(125,47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(126,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(127,53): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
+D:\study\project\LOLCheat\CheatLOL_C_2022.cpp(133,50): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPCVOID”
   CheatLOL_C_2022.vcxproj -> D:\study\project\CheatLOL_C_2022.exe
